@@ -17,4 +17,98 @@ a :visited {
 a:hover,
 a:active {
 	color: #eee;
+
+	/* Reset some default styles */
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	/* Base body styles */
+	body {
+		font-family: Arial, sans-serif;
+		line-height: 1.6;
+		background-color: #f4f4f4;
+		color: #333;
+		padding: 20px;
+	}
+
+	/* Headings */
+	h1,
+	h2,
+	h3,
+	h4 {
+		color: #222;
+		margin-bottom: 10px;
+	}
+
+	/* Paragraphs */
+	p {
+		margin-bottom: 10px;
+	}
+
+	/* Links */
+	a {
+		color: #0077cc;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	/* Images */
+	img {
+		display: block;
+		margin: 10px 0;
+		border-radius: 8px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	}
+
+	/* Lists */
+	ul,
+	ol {
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	/* Address tag */
+	address {
+		font-style: normal;
+		background-color: #e3e3e3;
+		padding: 10px;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+	/* Figure and figcaption */
+	figure {
+		margin-bottom: 15px;
+	}
+
+	figcaption {
+		font-size: 0.9em;
+		text-align: center;
+		color: #555;
+	}
+
+	/* Footer */
+	footer {
+		margin-top: 30px;
+		padding-top: 15px;
+		border-top: 1px solid #ccc;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	/* Responsive Images */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 }
