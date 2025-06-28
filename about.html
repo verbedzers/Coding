@@ -12,6 +12,11 @@
 		<title>About Me</title>
 	</head>
 	<body>
+		<nav aria-label="contact-navigation">
+				<ul>
+					<li>
+						<a href="#contact">Contact Us Now!</a><br />
+		<hr>
 		<h1>This is my information</h1>
 		<p>Hello, my name is Shenouda Sherif.</p>
 		<p>I love coding so much.</p>
@@ -209,5 +214,51 @@
 			</tr>
 			</tbody>
 		</table>
+<article id="contact">
+<h2>Contact Me For Feedbacks</h2>
+<p>id love to hear feedbacks!</p>
+
+<form action="https://httpbin.org/get" method="get">
+	<label for="firstName">firstName: </label>
+	<input type="text" name="firstName" id="firstName" placeholder="Sheno" autocomplete="on" required autofocus>
+</form>
+<form action="https://httpbin.org/get" method="get">
+	<label for="lastName">lastName: </label>
+	<input type="text" name="lastName" id="lastName" placeholder="Monkey" autocomplete="on" required>
+</form>
+<form action="https://httpbin.org/get" method="get">
+	<label for="password"> password </label>
+	<input type="password" name="password" id="password" placeholder="*******" autocomplete="off" required>
+</form>
+<form action="https://httpbin.org/get" method="get">
+	<label for="number"> Phone Number: </label>
+	<input type="tel" name="Phone Number" id="Phone Number" placeholder="012-345-6789" autocomplete="on" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+</form>
+<form action="https://httpbin.org/get" method="get">
+	<label for="year"> Favorite Year </label>
+	<input type="number" name="Fav Year" id="year"
+	min="1960" max="2025" value="2017">
+	<p>
+	<label for="coffee">Your Fav Coffee
+		<select name="coffee" id="coffees">
+			<optgroup label="Coffee">
+		<option value="Regular Coffee">Regular Coffee</option>
+		<option value="Instant Coffee">Instant Coffee</option>
+		<optgroup label="Espresso">
+		<option value="Cappuccino">Cappuccino</option>
+		<option value="Latte">Latte</option>
+		<option value="Americano">Americano</option>
+		<option value="Mocha">Mocha</option>
+		<option value="Flat White">Flat White</option>
+		<option value="Espresso">Espresso</option>
+		<option value="Cortado">Cortado</option>
+		</optgroup>
+		<option value="Others">Others</option>
+		</select>
+	</label>
+	</p>
+	</form>
+
+</article>
 	</body>
 </html>
